@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cybersecurity">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | Cybersecurity & Development</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+
+    <header class="navbar glass">
+      <div class="brand">YOUR<span>PROFILE</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#themes">Themes</a>
+        <a href="#projects">Highlights</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="assets/resume-template.txt" download>Download Resume</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content reveal">
+          <p class="kicker">Digital Portfolio</p>
+          <h1>
+            <span id="hero-role">Cybersecurity Analyst</span>
+            <br />
+            with hacker-inspired dark blue vibes
+          </h1>
+          <p id="hero-description">
+            Building secure, resilient systems and polished experiences with live visuals and smooth interactions.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Get in Touch</a>
+            <a class="btn btn-outline" href="#themes">Explore Themes</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="panel reveal">
+        <h2>About Me</h2>
+        <p>
+          I blend security thinking with software engineering to deliver products that are both fast and safe. This page supports multiple professional identities,
+          animated transitions, and a scroll-based storytelling layout inspired by premium product showcases.
+        </p>
+      </section>
+
+      <section id="themes" class="panel reveal">
+        <h2>Choose Your Theme</h2>
+        <p>Switch between professional profiles with a single click.</p>
+        <div class="theme-switcher">
+          <button class="theme-btn active" data-theme="cybersecurity">Cybersecurity</button>
+          <button class="theme-btn" data-theme="ethical">Ethical Hacker</button>
+          <button class="theme-btn" data-theme="developer">Software Developer</button>
+        </div>
+      </section>
+
+      <section id="projects" class="scroll-showcase">
+        <article class="showcase-card reveal" data-speed="0.1">
+          <h3>Threat Intelligence</h3>
+          <p>Monitor threat feeds, map attack vectors, and automate defensive playbooks.</p>
+        </article>
+        <article class="showcase-card reveal" data-speed="0.16">
+          <h3>Red Team Mindset</h3>
+          <p>Ethical testing, vulnerability reporting, and secure remediation workflows.</p>
+        </article>
+        <article class="showcase-card reveal" data-speed="0.22">
+          <h3>Developer Workflow</h3>
+          <p>Build modern web tools with clean code, automation, and performance focus.</p>
+        </article>
+      </section>
+
+      <section id="contact" class="panel reveal">
+        <h2>Contact & Links</h2>
+        <div class="icon-links">
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <span class="icon">in</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://example.com/certificates" target="_blank" rel="noreferrer" aria-label="Certificates">
+            <span class="icon">🎓</span>
+            <span>Certificates</span>
+          </a>
+          <a href="mailto:yourmail@example.com" aria-label="Email">
+            <span class="icon">✉</span>
+            <span>yourmail@example.com</span>
+          </a>
+          <a href="tel:+1234567890" aria-label="Phone">
+            <span class="icon">☎</span>
+            <span>+1 234 567 890</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Your Profile. Built with animated dark-tech aesthetics.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
