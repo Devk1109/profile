@@ -1,0 +1,22 @@
+YOUR NAME
+Cybersecurity | Ethical Hacking | Software Development
+
+SUMMARY
+Replace this with your professional summary.
+
+SKILLS
+- Security Operations
+- Penetration Testing
+- JavaScript / Web Development
+
+EXPERIENCE
+- Add your roles and impact here.
+
+PROJECTS
+- Add your key projects here.
+
+EDUCATION
+- Add your education details.
+
+CERTIFICATIONS
+- Add completed courses and certificates.
