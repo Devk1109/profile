@@ -1,74 +1,28 @@
-# Animated Multi-Theme Profile Website
+# Happy Birthday React Experience
 
-This repository now contains a complete personal profile website with:
+A complete React + Vite single-page birthday surprise app converted from your original HTML/CSS/JS concept.
 
-- Multiple persona themes:
-  - Cybersecurity
-  - Ethical Hacker
-  - Software Developer
-- Dark blue hacker-style visual design.
-- Live animated background (matrix-like rain effect).
-- Scroll-based reveal + parallax-style motion effects.
-- Contact and profile links with icon-style representation.
-- Resume download support.
+## Features
+- Animated starry canvas background
+- Loader screen
+- 4-page flow (Envelope → Cake → Gallery → Letter)
+- Candle-lighting interaction and blow button
+- Memory gallery cards
+- Typed love letter ending
+- Vertical navigation dots
 
-## Files Added
-
-- `index.html` – Main structure and content sections.
-- `styles.css` – Styling, dark theme colors, responsive layout, animation classes.
-- `script.js` – Theme switching, scroll animation, and live canvas animation.
-- `assets/resume-template.txt` – Downloadable placeholder resume file.
-
-## How to Run
-
-Open `index.html` directly in browser, or run a static server:
+## Run locally
 
 ```bash
-python3 -m http.server 8000
+npm install
+npm run dev
 ```
 
-Then visit `http://localhost:8000`.
+Open `http://localhost:5173`.
 
-## Customizations You Can Make Later
+## Build production bundle
 
-### 1) Personal Details
-Update in `index.html`:
-- Name / brand text in header.
-- Email and phone number.
-- LinkedIn URL.
-- Certificate URL.
-
-### 2) Resume
-- Replace `assets/resume-template.txt` with your real resume (PDF recommended).
-- Update resume button `href` in `index.html` if filename changes.
-
-### 3) Theme Content
-Update role and description text in `script.js` (`profileThemes` object).
-
-### 4) Colors and Vibe
-Update CSS variables in `styles.css`:
-- `--bg`
-- `--accent`
-- `--card`
-- `--border`
-
-### 5) Sections and Projects
-Add or edit sections in `index.html`:
-- Portfolio projects
-- Certifications
-- Timeline
-- Testimonials
-
-### 6) Animation Tuning
-In `script.js`:
-- Adjust reveal threshold in `IntersectionObserver`.
-- Adjust parallax intensity in scroll listener.
-- Adjust matrix animation density and speed in `drawRain()`.
-
-## Suggested Next Improvements
-
-- Add your real project cards with GitHub links.
-- Add a dedicated certificates page.
-- Add a contact form with backend (Formspree/Netlify/email API).
-- Add SEO metadata and social preview tags.
-- Optimize for Lighthouse score.
+```bash
+npm run build
+npm run preview
+```
